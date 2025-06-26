@@ -6,6 +6,8 @@
 
 **Highway Organizers**: BOMs and CADs are found in their respective files (BOM.md and CADs in the CAD directory). I will not be putting them in this README as I want it as clean as possible.
 
+[BOM](https://github.com/knivier/Hydrohelp/blob/main/BOM.md), [CADs](https://github.com/knivier/Hydrohelp/tree/main/CADs)
+
 ## 📡 Features
 - Temp, humidity, pressure, and air quality monitoring (I have asthma so having a warning based AQM would be very nice)
 - LoRa transmission between outdoor node and indoor base
