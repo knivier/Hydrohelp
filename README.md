@@ -4,6 +4,8 @@
 
 > **Note**: All MD documents are composed with the Obsidian text editor, and are best viewed by it :D
 
+**Highway Organizers**: BOMs and CADs are found in their respective files (BOM.md and CADs in the CAD directory). I will not be putting them in this README as I want it as clean as possible.
+
 ## 📡 Features
 - Temp, humidity, pressure, and air quality monitoring (I have asthma so having a warning based AQM would be very nice)
 - LoRa transmission between outdoor node and indoor base
