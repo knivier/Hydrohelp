@@ -61,7 +61,7 @@ Note: I want a high quality voltage regulator, not like the buck converter we us
 
 ---
 
-### 🗓️ #4 — June 25th: LoRa Packet Design & Telemetry Structure
+### #4 — June 25th: LoRa Packet Design & Telemetry Structure
 
 **What I did:**
 
@@ -72,3 +72,17 @@ Note: I want a high quality voltage regulator, not like the buck converter we us
 Images: I don't have any, but I have a lot of code to show for it
 
 **Total time spent:** 2h
+
+----
+
+### #5 - June 26th: CADDING
+**What I did:**
+* Created some basic CADs for the project
+* Found in the /CADs/ directory under prototype 1
+
+CAD explanation: Red base is the main chip with the orange cylinder being the radio antenna. There are sensor cutouts with sensors too and a solar mount with a hole beneath for wires. Other red box is battery system.
+![CAD screenshot on Tinker](Images\cad-proto1.png)
+
+I think a good idea of assembly is having the sensors mounted with brackets and allowing wires to run down back to the main grid. They should be enclosed in heat shrink tubing (I have a ton already). 
+
+The top isn't shown in CAD drawings but I think for proto-2 CAD I may just cut out a space for the solar in the lid and allow wires to run down through crevices (which I can fill with silicone).
