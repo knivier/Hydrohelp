@@ -1,0 +1,18 @@
+Hydrohelp BOM
+
+| Item                        | Quantity | Estimated Cost | Notes                                                                                                                                                                            |
+| --------------------------- | -------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TTGO T-Beam (ESP32 + LoRa)  | 1        | $30 ea         | One for weather node, one for base. I already have one LoRA board though (Heltec V3) so I only need another. I could alternatively go Pico + LoRA but this integrates a lot more |
+| AHT21 Temp/Humidity Sensor  | 1        | $4             | Compact I2C sensor, I want to use more than one sensor and the AHT21 will be the other. I already have AHT21s                                                                    |
+| BME280 Pressure Sensor      | 1        | $5             | Altitude/pressure/Humidity                                                                                                                                                       |
+| SGP30 Air Quality Sensor    | 1        | $6             | TVOCs + eCO2 over I2C, very power efficient (I want to be monitoring this more cuz I have asthma and this would be a nice notification)<br>                                      |
+| 0.96" OLED Display (I2C)    | 1        | $6             | For home base, like a "heads up" type stuff useful for debugging as well                                                                                                         |
+| 18650 Battery               | 1        | $10            | The home base will always be plugged in                                                                                                                                          |
+| TP4056 Charging Module      | 1        | $3             | Handles solar charging                                                                                                                                                           |
+| 5V 1W–2W Solar Panel        | 1        | $8             | Roof-mounted for weather node                                                                                                                                                    |
+| Waterproof Enclosure (IP65) | 1        | $10–15         | Or custom 3D printed w/ mesh vents                                                                                                                                               |
+| Perfboard, wires, headers   | —        | $10            | General prototyping needs, I've got most of this though                                                                                                                          |
+| Mounting screws/tape        | —        | $5             | For final install                                                                                                                                                                |
+
+**Total est. cost:** ~$60–100, tariffs are screwing around a lot of price stuff
+

@@ -1,0 +1,9 @@
+Component,Voltage,Current (mA),Power (mW),Notes
+TTGO T-Beam (ESP32 + LoRa),3.3 V,70 - 120,231 - 396,"Active TX peaks ~120mA, deep sleep ~0.01-0.1 mA"
+AHT21 Temp/Humidity Sensor,3.3 V,0.15,0.5,"Low power sensor, I2C communication"
+BME280 Pressure Sensor,3.3 V,0.12,0.4,Low power sensor
+SGP30 Air Quality Sensor,3.3 V,48,158,Active measurement; can duty cycle to save power
+OLED Display (Base Only),3.3 V,20 - 30,66 - 99,Mostly on base station; outdoor node might skip
+TP4056 Charger,5 V,N/A,N/A,"Passive, only charges battery"
+Solar Panel,5 V,150 - 400,750 - 2000,Max current depends on sun irradiance
+18650 Battery,3.7 V,N/A,N/A,Capacity ~2500mAh; nominal voltage 3.7V
