@@ -86,3 +86,4 @@ CAD explanation: Red base is the main chip with the orange cylinder being the ra
 I think a good idea of assembly is having the sensors mounted with brackets and allowing wires to run down back to the main grid. They should be enclosed in heat shrink tubing (I have a ton already). 
 
 The top isn't shown in CAD drawings but I think for proto-2 CAD I may just cut out a space for the solar in the lid and allow wires to run down through crevices (which I can fill with silicone).
+**Total time spent:** 1.5h
