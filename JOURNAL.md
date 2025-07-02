@@ -90,3 +90,18 @@ The top isn't shown in CAD drawings but I think for proto-2 CAD I may just cut o
 
 Because the device is supposed to remain outside on a roof where rain can also occur, the internals need to be sealed. I'll use silicone to close everything off and also apply a paste to all the components to prevent humidity from building (something similar to the paste we used in Apex). 
 **Total time spent:** 1.5h
+
+---
+### #6 - July 2nd: Refining the CAD
+
+Hydrohelp was rejected a couple days ago due to the CAD being a prototype and not complete (it was also rejected because images apparently aren't in the journal. Well, they definitely are.)
+
+So, I created a CAD which you can see down below
+![[full-cad.png]]
+Most of the components have been found from online CADs (grabcad.com was my savior) and then converted to the STL format because I use Tinkercad (imagetostl.com). 
+
+The only things that I couldn't grab direct CADs for were the antenna, solar capture thingy (loosing brain cells) and all the wires that'll hold this together.
+
+All the sensors will be held with silicoln and some plastic mounting brackets. I may be pivoting to a 3D printed case but I will measure (with my calliper) the exact dimensions of all the components before ordering the case. I hate reordering. I hate it hate it hate it hate it....
+
+So yeah, there's a complete CAD of the entire project, accurate to the 0.1mm! 
