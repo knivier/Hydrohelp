@@ -36,7 +36,7 @@ Images: N/A (this was the planning phase, tomorrow I should have some images)
 **Next up:** Begin CAD shell design
 ![[basic-diagram-draw-lowqualityexport.png]]Notes on the basic overview: The parts aren't accurate as I used skimmed down stuff for this diagram. The Heltec V3 is the base station connected to OLED. 
 
-![[amazon-BME280.png]]
+![A la BME](Images/amazon-BME280.png)
 
 **Total time spent:** 2h
 
@@ -52,10 +52,10 @@ Images: N/A (this was the planning phase, tomorrow I should have some images)
 * Identified power-saving needs (deep sleep modes)
 * Researched small solar panels (\~5V, 1W+)
 
-![[power-drawings.png]]
+![Power Drawings](Images/power-drawings.png)
 
 Note: I want a high quality voltage regulator, not like the buck converter we used for Apex, BUY A MORE EXPENSIVE ONE so system inits dont cause voltage drops.
-![[power-plan.png]]
+![Da power plan](Images/power-plan.png)
 
 **Total time spent:** 1.5h
 
@@ -69,7 +69,9 @@ Note: I want a high quality voltage regulator, not like the buck converter we us
 * Defined packet interval (every 10–15 mins for temperature and humidity, every 5 mins for air quality)
 * Home base will receive via LoRa and show stats on OLED, maybe push over serial to a Python logger, also maybe add a speaker for Air quality warnings (haptic alternative for less noise?)
 
-Images: I don't have any, but I have a lot of code to show for it
+Images: I have a lot of code, here's a screenshot of some specific code
+
+![LoRa Packet Code Example](Images/codestuff.png)
 
 **Total time spent:** 2h
 
@@ -84,7 +86,7 @@ CAD explanation: Red base is the main chip with the orange cylinder being the ra
 
 The last time I used CAD was in 7th grade and I barely used it at all, so I had to go through and learn how to use Tinkercad. While it's a rough first draft, it gives me a solid idea of what my project should look like.
 
-![[cad-proto1.png]]
+![CAD Prototype 1](Images/cad-proto1.png)
 
 I think a good idea of assembly is having the sensors mounted with brackets and allowing wires to run down back to the main grid. They should be enclosed in heat shrink tubing (I have a ton already). 
 
@@ -100,7 +102,9 @@ Because the device is supposed to remain outside on a roof where rain can also o
 Hydrohelp was rejected a couple days ago due to the CAD being a prototype and not complete (it was also rejected because images apparently aren't in the journal. Well, they definitely are.)
 
 So, I created a CAD which you can see down below
-![[full-cad.png]]
+
+![Full Cad stuff](Images/full-cad.png)
+
 Most of the components have been found from online CADs (grabcad.com was my savior) and then converted to the STL format because I use Tinkercad (imagetostl.com). 
 
 The only things that I couldn't grab direct CADs for were the antenna, solar capture thingy (loosing brain cells) and all the wires that'll hold this together.
@@ -108,3 +112,5 @@ The only things that I couldn't grab direct CADs for were the antenna, solar cap
 All the sensors will be held with silicoln and some plastic mounting brackets. I may be pivoting to a 3D printed case but I will measure (with my calliper) the exact dimensions of all the components before ordering the case. I hate reordering. I hate it hate it hate it hate it....
 
 So yeah, there's a complete CAD of the entire project, accurate to the 0.1mm! 
+
+**Total time spent**: 3h

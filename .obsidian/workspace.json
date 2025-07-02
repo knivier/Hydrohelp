@@ -197,14 +197,17 @@
   },
   "active": "79774329c4042e1f",
   "lastOpenFiles": [
-    "CADs/HydroHelp-CompleteCADRender.stl",
     "README.md",
-    "Images/full-cad.png",
+    "Images/codestuff.png",
+    "Images/image.png",
+    "image.png",
     "JOURNAL.md",
+    "BOM.md",
+    "CADs/HydroHelp-CompleteCADRender.stl",
+    "Images/full-cad.png",
     "code/Code-Struct.md",
     "power-plan-1.png",
     "power-plan.png",
-    "BOM.md",
     "code/dashboard.py",
     "code/receiver.py",
     "receiver.py",
@@ -217,7 +220,6 @@
     "Images/power-drawings.png",
     "Images/basic-diagram-draw-lowqualityexport.png",
     "Untitled.md",
-    "Images",
     "Images/amazon-BME280.png"
   ]
 }

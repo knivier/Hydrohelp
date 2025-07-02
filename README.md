@@ -12,6 +12,22 @@ I live in an area where construction dominates and there isn't a local weather s
 
 [BOM](https://github.com/knivier/Hydrohelp/blob/main/BOM.md), [CADs](https://github.com/knivier/Hydrohelp/tree/main/CADs)
 
+## Scaled Down BOM
+
+| Item                        | Qty | Est. Cost | Notes                        |
+|-----------------------------|-----|-----------|------------------------------|
+| TTGO T-Beam (ESP32 + LoRa)  | 1   | $45       | Main MCU + LoRa radio        |
+| AHT21 Temp/Humidity Sensor  | 1   | $4        | I2C temp/humidity            |
+| BME280 Pressure Sensor      | 1   | $10       | Pressure/altitude            |
+| SGP30 Air Quality Sensor    | 1   | $6        | TVOC/eCO2 air quality        |
+| 0.96" OLED Display (I2C)    | 1   | $6        | For home base display        |
+| 18650 Battery + Holder      | 1   | $15       | Power for outdoor node       |
+| TP4056 Charging Module      | 1   | $3        | Solar charging               |
+| 5V 1–2W Solar Panel         | 1   | $8        | Solar power supply           |
+| Waterproof Enclosure        | 1   | $10       | Outdoor weatherproofing      |
+
+**Est. total:** ~$80-120 (tariffs are making prices unpredictable)
+
 ## 📡 Features
 - Temp, humidity, pressure, and air quality monitoring (I have asthma so having a warning based AQM would be very nice)
 - LoRa transmission between outdoor node and indoor base
