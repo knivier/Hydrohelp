@@ -1,6 +1,6 @@
-## 📓 **JOURNAL.md — Planning Phase Entries**
+# **Journal: Planning Logs**
 
-### #1 — June 22th: Project Brainstorming & Vision
+### #1 - June 22th: Brainstorming (basic outlines)
 
 **What I did:**
 
@@ -21,7 +21,7 @@ Images: N/A (this was the planning phase, tomorrow I should have some images)
 
 ---
 
-### #2 — June 23th: Component Research & Feasibility
+### #2 - June 23th: Finding the parts
 
 **What I did:**
 
@@ -33,7 +33,8 @@ Images: N/A (this was the planning phase, tomorrow I should have some images)
 * Looked into **18650 battery + TP4056 + solar** combo
 * Explored IP-rated boxes and mounting options
 
-**Next up:** Begin CAD shell design
+**Next up:** Begin CAD shell design, power planning stuff too
+
 ![[basic-diagram-draw-lowqualityexport.png]]Notes on the basic overview: The parts aren't accurate as I used skimmed down stuff for this diagram. The Heltec V3 is the base station connected to OLED. 
 
 ![A la BME](Images/amazon-BME280.png)
@@ -42,7 +43,7 @@ Images: N/A (this was the planning phase, tomorrow I should have some images)
 
 ---
 
-### #3 — June 24th: Power Planning & Solar Strategy
+### #3 - June 24th: Power planning
 
 **What I did:**
 
@@ -61,7 +62,7 @@ Note: I want a high quality voltage regulator, not like the buck converter we us
 
 ---
 
-### #4 — June 25th: LoRa Packet Design & Telemetry Structure
+### #4 - June 25th: LoRA Packet Design & Basic Code Structuring
 
 **What I did:**
 
@@ -77,7 +78,8 @@ Images: I have a lot of code, here's a screenshot of some specific code
 
 ----
 
-### #5 - June 26th: CADDING
+### #5 - June 26th: 
+
 **What I did:**
 * Created some basic CADs for the project
 * Found in the /CADs/ directory under prototype 1
