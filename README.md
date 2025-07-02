@@ -1,10 +1,8 @@
 # HydroHelp
 
-**HydroHelp** is a solar-powered, waterproof weather station that uses LoRa telemetry to send real-time environmental data to a home base. The goal? Help people (me) remember to water the grass and also have an early asthma warning system while also learning embedded systems, sensors, CAD, and solar power along the way.
+**HydroHelp** is a solar-powered, waterproof weather station that uses LoRa telemetry to send real-time environmental data to a home base. The goal is to (A) remind me to water the grass properly, (B) receive more updated weather information, and (C) notify my family and I if there are high pollutants incase athesma is likely.
 
 > **Note**: All MD documents are composed with the Obsidian text editor, and are best viewed by it :D
-
-**Highway Organizers**: BOMs and CADs are found in their respective files (BOM.md and CADs in the CAD directory). I will not be putting them in this README as I want it as clean as possible.
 
 ## The "Problem" I'm trying to solve
 
@@ -28,7 +26,7 @@ I live in an area where construction dominates and there isn't a local weather s
 
 **Est. total:** ~$80-120 (tariffs are making prices unpredictable)
 
-## 📡 Features
+## Features
 - Temp, humidity, pressure, and air quality monitoring (I have asthma so having a warning based AQM would be very nice)
 - LoRa transmission between outdoor node and indoor base
 - Solar-charged 18650 battery system (off-grid capable)
@@ -36,24 +34,24 @@ I live in an area where construction dominates and there isn't a local weather s
 - Compact OLED-based display for real-time data
 - All housed in a weatherproof enclosure
 
-## 💡 Technologies
+## Technologies
 - ESP32 (TTGO T-Beam)
 - LoRa 433/868MHz
 - AHT21, BMP280, MQ135 sensors (or similar, check BOM for last updated)
 - CAD-designed housing
 - Deep sleep power management
 
-## 📦 Project Goals
+## Project Goals
 - [x] Define feature set and hardware needs
 - [x] Source components
 - [x] Basic CAD layouts
 - [ ] Project approved by Highway organizers
 - [ ] Order components
 - [ ] Prototype and test sensors
-- [ ] Finish CAD and 3D print enclosure
+- [ ] Finish CAD and 3D print enclosure (or drill custom styro box)
 - [ ] Build power and solar system
 - [ ] Develop and test LoRa telemetry link
 - [ ] Create home base interface (OLED + optional PC logging)
-- [ ] Deploy on roof & field test
+- [ ] Deploy on my roof & field test for the week
 - [ ] Ship as a final product that's easy to replicate (my goal? make this entire setup easy for those that may want to replicate)
 - [ ] Connect (in a separate project) Hydrohelp to an automatic water sprinkler hose attachment thing
